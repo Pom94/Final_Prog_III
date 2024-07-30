@@ -2,7 +2,7 @@ import miJuego.Personaje;
 
 public class Humano extends Personaje {
 
-    public Humano(Raza raza, String nombre, int edad, int salud, int velocidad, int destreza, int fuerza, int armadura, int nivel) {
+    public Humano(Raza raza, String nombre, int edad, float salud, int velocidad, int destreza, int fuerza, int armadura, int nivel) {
         super(raza, nombre, edad, salud, velocidad, destreza, fuerza, armadura, nivel);
     }
 

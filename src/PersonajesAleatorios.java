@@ -17,7 +17,7 @@ public class PersonajesAleatorios {
             Raza raza = elegirRazaAleatoria();
             String nombre = generarNombreAleatorio(raza);
             int edad = generarAtributoAleatorio(1, 300);
-            int salud = 100;
+            float salud = 300;
             int velocidad = generarAtributoAleatorio(1, 10);
             int destreza = generarAtributoAleatorio(1, 5);
             int fuerza = generarAtributoAleatorio(1, 10);
@@ -51,9 +51,9 @@ public class PersonajesAleatorios {
     }
 
     private String generarNombreAleatorio(Raza raza) {
-        List<String> nombresHumanos = List.of("Aragorn", "Legolas", "Gandalf");
-        List<String> nombresOrcos = List.of("Grug", "Thorg", "Morg");
-        List<String> nombresElfos = List.of("Luthien", "Galadriel", "Celeborn");
+        List<String> nombresHumanos = List.of("Aragorn", "Legolas", "Gandalf", "Galia", "Ruffo", "Rebord", "Aquino", "Araña", "Elisa", "Zeta", "Canelon", "Electrochongo", "Juan", "Jorge");
+        List<String> nombresOrcos = List.of("Grug", "Thorg", "Morg", "Ruocco", "Ruffo", "Rebord", "Fd", "Jove", "Tano", "Jane", "Uno", "Dos", "Tres", "Tortu", "Marini");
+        List<String> nombresElfos = List.of("Luthien", "Galadriel", "Celeborn", "Iacono", "Navaja", "Groissman", "Cacho", "Arwen", "Tauriel", "Ñoqui", "Raviol");
 
         switch (raza) {
             case HUMANO:

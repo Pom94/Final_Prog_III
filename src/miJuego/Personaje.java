@@ -3,7 +3,7 @@ public abstract class Personaje {
     private Raza raza;
     private String nombre;
     private int edad;
-    private int salud;
+    private float salud;
     private int velocidad;
     private int destreza;
     private int fuerza;
@@ -30,7 +30,7 @@ public abstract class Personaje {
 
     public void bonificacion() {
         nivel++;
-        salud++;
+        salud += 30;
     }
 
     public void recibirDanio(float danio) {
@@ -40,7 +40,7 @@ public abstract class Personaje {
         }
     }
 
-    public Personaje(Raza raza, String nombre, int edad, int salud, int velocidad, int destreza, int fuerza, int armadura, int nivel) {
+    public Personaje(Raza raza, String nombre, int edad, float salud, int velocidad, int destreza, int fuerza, int armadura, int nivel) {
         this.raza = raza;
         this.nombre = nombre;
         this.edad = edad;
@@ -76,7 +76,7 @@ public abstract class Personaje {
         this.edad = edad;
     }
 
-    public int getSalud() {
+    public float getSalud() {
         return salud;
     }
 
