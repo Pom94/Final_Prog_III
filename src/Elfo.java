@@ -1,4 +1,6 @@
-public class Elfo extends Personaje{
+import miJuego.Personaje;
+
+public class Elfo extends Personaje {
 
     public Elfo(Raza raza, String nombre, int edad, int salud, int velocidad, int destreza, int fuerza, int armadura, int nivel) {
         super(raza, nombre, edad, salud, velocidad, destreza, fuerza, armadura, nivel);

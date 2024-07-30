@@ -1,4 +1,6 @@
-public class Orco extends Personaje{
+import miJuego.Personaje;
+
+public class Orco extends Personaje {
     public Orco(Raza raza, String nombre, int edad, int salud, int velocidad, int destreza, int fuerza, int armadura, int nivel) {
         super(raza, nombre, edad, salud, velocidad, destreza, fuerza, armadura, nivel);
     }

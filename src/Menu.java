@@ -14,6 +14,7 @@ public class Menu {
     public void procesarOpcion(int opcion) {
         switch (opcion) {
             case 1:
+
                 break;
             case 2:
                 break;

@@ -1,3 +1,4 @@
+package miJuego;
 public abstract class Personaje {
     private Raza raza;
     private String nombre;
