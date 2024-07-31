@@ -80,7 +80,7 @@ public abstract class Personaje {
         return salud;
     }
 
-    public void setSalud(int salud) {
+    public void setSalud(float salud) {
         this.salud = salud;
     }
 

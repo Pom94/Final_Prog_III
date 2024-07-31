@@ -3,6 +3,7 @@ import miJuego.Personaje;
 import java.util.Scanner;
 
 public class Menu {
+    private Consola consola = new Consola();
 
     // Métodos
     public void mostrarMenu() {
@@ -19,11 +20,11 @@ public class Menu {
     }
 
     public void procesarOpcion() {
-        Scanner sc = new Scanner(System.in);
+
         int opcion;
         do{
             mostrarMenu();
-            opcion = sc.nextInt();
+            opcion = consola.leerInt(1, 5);
             switch (opcion) {
 
                 case 1:
@@ -50,7 +51,7 @@ public class Menu {
                     System.out.println(" ");
                     //Scanner seguir1 = new Scanner(System.in);
                     System.out.println("Presione enter para continuar...");
-                    sc.nextLine();
+                    consola.saltoLinea();
 
                     System.out.println("---------------------------------------------------");
                     System.out.println("Equipo 2:");
@@ -68,7 +69,7 @@ public class Menu {
 
                     //Scanner seguir2 = new Scanner(System.in);
                     System.out.println("Presione enter para continuar...");
-                    sc.nextLine();
+                    consola.saltoLinea();
 
                     //iniciar partida
                     Combate combate = new Combate(jugador1.getEquipo(), jugador2.getEquipo());
@@ -82,7 +83,7 @@ public class Menu {
 
                     //Scanner seguir3 = new Scanner(System.in);
                     System.out.println("Presione enter para continuar...");
-                    sc.nextLine();
+                    consola.saltoLinea();
                     System.out.println(" ");
 
 
@@ -120,7 +121,7 @@ public class Menu {
                     System.out.println(" ");
                     //Scanner seguir4 = new Scanner(System.in);
                     System.out.println("Presione enter para continuar...");
-                    sc.nextLine();
+                    consola.saltoLinea();
 
                     System.out.println("---------------------------------------------------");
                     System.out.println("Equipo 2:");
@@ -138,7 +139,7 @@ public class Menu {
 
                     //Scanner seguir5 = new Scanner(System.in);
                     System.out.println("Presione enter para continuar...");
-                    sc.nextLine();
+                    consola.saltoLinea();
 
                     Combate combate2 = new Combate(jugador1b.getEquipo(), jugador2b.getEquipo());
                     combate2.iniciarCombate();
@@ -149,7 +150,7 @@ public class Menu {
                     System.out.println("Partida guardada.");
                     //Scanner seguir6 = new Scanner(System.in);
                     System.out.println("Presione enter para continuar...");
-                    sc.nextLine();
+                    consola.saltoLinea();
                     System.out.println(" ");
 
 

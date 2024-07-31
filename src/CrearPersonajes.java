@@ -6,6 +6,7 @@ import java.util.Scanner;
 import miJuego.Personaje.Raza;
 
 public class CrearPersonajes {
+    private Consola consola = new Consola();
 
     public List<Personaje> crearEquipo(){
         List<Personaje> equipo = new ArrayList<>();
@@ -13,23 +14,31 @@ public class CrearPersonajes {
 
         for (int i = 0; i < 3; i++){
             System.out.println("Elegir raza (Humano, Orco o Elfo):");
-            Raza raza = Raza.valueOf(sc.nextLine().toUpperCase());
+            Raza raza;
+            while (true) {
+                try {
+                    raza = Raza.valueOf(sc.nextLine().toUpperCase());
+                    break;
+                } catch (IllegalArgumentException e) {
+                    System.out.println("Raza inválida. Por favor, ingresa una raza válida (Humano, Orco o Elfo):");
+                }
+            }
 
             System.out.println("Nombre?: ");
             String nombre = sc.nextLine();
 
             System.out.println("Edad?: ");
-            int edad = sc.nextInt();
+            int edad = consola.leerInt(1, 300);
             sc.nextLine();
 
             float salud = 300;
 
             System.out.println("Velocidad?: ");
-            int velocidad = sc.nextInt();
+            int velocidad = consola.leerInt(1, 10);
             sc.nextLine();
 
             System.out.println("Destreza?: ");
-            int destreza = sc.nextInt();
+            int destreza = consola.leerInt(1, 5);
             sc.nextLine();
 
             System.out.println("Fuerza?: ");
@@ -37,11 +46,11 @@ public class CrearPersonajes {
             sc.nextLine();
 
             System.out.println("Armadura?: ");
-            int armadura = sc.nextInt();
+            int armadura = consola.leerInt(1, 10);
             sc.nextLine();
 
             System.out.println("Nivel?: ");
-            int nivel = sc.nextInt();
+            int nivel = consola.leerInt(1, 10);
             sc.nextLine();
 
             Personaje personaje;
