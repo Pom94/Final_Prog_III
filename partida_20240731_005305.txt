@@ -1,0 +1,118 @@
+---------------------------------------------------
+Equipo 1:
+ 
+Uno
+Raza: ORCO.  Edad: 213.  Salud: 300.0
+Nivel: 1
+Velocidad: 7.  Destreza: 4
+Fuerza: 3.  Armadura:7
+ 
+Arwen
+Raza: ELFO.  Edad: 13.  Salud: 300.0
+Nivel: 1
+Velocidad: 2.  Destreza: 1
+Fuerza: 7.  Armadura:9
+ 
+Rebord
+Raza: HUMANO.  Edad: 290.  Salud: 300.0
+Nivel: 1
+Velocidad: 1.  Destreza: 1
+Fuerza: 1.  Armadura:8
+ 
+ 
+Presione enter para continuar...
+---------------------------------------------------
+Equipo 2:
+ 
+Aragorn
+Raza: HUMANO.  Edad: 121.  Salud: 300.0
+Nivel: 1
+Velocidad: 6.  Destreza: 2
+Fuerza: 10.  Armadura:5
+ 
+Morg
+Raza: ORCO.  Edad: 263.  Salud: 300.0
+Nivel: 1
+Velocidad: 10.  Destreza: 3
+Fuerza: 4.  Armadura:2
+ 
+Iacono
+Raza: ELFO.  Edad: 1.  Salud: 300.0
+Nivel: 1
+Velocidad: 7.  Destreza: 3
+Fuerza: 7.  Armadura:8
+ 
+---------------------------------------------------
+ 
+Presione enter para continuar...
+Ronda nro: 1
+---------------------------------------------------
+Rebord vs Morg
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Rebord ataca a Morg y le inflige 104.0 de daño. Le queda 196.0 de salud.
+ 
+Morg ataca a Rebord y le inflige -3.74 de daño. Le queda 303.74 de salud.
+ 
+Rebord ataca a Morg y le inflige 183.2 de daño. Le queda 12.800003 de salud.
+ 
+Morg ataca a Rebord y le inflige 5.06 de daño. Le queda 298.68 de salud.
+ 
+Rebord ataca a Morg y le inflige 219.2 de daño. Le queda 0.0 de salud.
+ 
+Morg ha muerto.
+ 
+Rebord recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 328.68
+Nivel: 2
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+Ronda nro: 2
+---------------------------------------------------
+Rebord vs Aragorn
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Rebord ataca a Aragorn y le inflige 246.4 de daño. Le queda 53.600006 de salud.
+ 
+Aragorn ataca a Rebord y le inflige 15.6 de daño. Le queda 313.08 de salud.
+ 
+Rebord ataca a Aragorn y le inflige 242.4 de daño. Le queda 0.0 de salud.
+ 
+Aragorn ha muerto.
+ 
+Rebord recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 343.08
+Nivel: 3
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+Ronda nro: 3
+---------------------------------------------------
+Arwen vs Iacono
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Arwen ataca a Iacono y le inflige 62.37 de daño. Le queda 237.63 de salud.
+ 
+Iacono ataca a Arwen y le inflige 58.8 de daño. Le queda 241.2 de salud.
+ 
+Arwen ataca a Iacono y le inflige 353.43 de daño. Le queda 0.0 de salud.
+ 
+Iacono ha muerto.
+ 
+Arwen recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 271.2
+Nivel: 2
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+¡El equipo 1 ha ganado!
+Guardando partida...
+Presione enter para continuar...
+ 

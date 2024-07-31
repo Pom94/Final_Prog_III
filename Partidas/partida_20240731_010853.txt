@@ -1,0 +1,144 @@
+---------------------------------------------------
+Equipo 1:
+ 
+Fd
+Raza: ORCO.  Edad: 236.  Salud: 300.0
+Nivel: 1
+Velocidad: 9.  Destreza: 3
+Fuerza: 3.  Armadura:6
+ 
+Ñoqui
+Raza: ELFO.  Edad: 167.  Salud: 300.0
+Nivel: 1
+Velocidad: 3.  Destreza: 3
+Fuerza: 7.  Armadura:9
+ 
+Jorge
+Raza: HUMANO.  Edad: 123.  Salud: 300.0
+Nivel: 1
+Velocidad: 3.  Destreza: 2
+Fuerza: 8.  Armadura:9
+ 
+ 
+Presione enter para continuar...
+---------------------------------------------------
+Equipo 2:
+ 
+Ruffo
+Raza: HUMANO.  Edad: 259.  Salud: 300.0
+Nivel: 1
+Velocidad: 7.  Destreza: 4
+Fuerza: 8.  Armadura:6
+ 
+Ruffo
+Raza: ORCO.  Edad: 237.  Salud: 300.0
+Nivel: 1
+Velocidad: 9.  Destreza: 1
+Fuerza: 9.  Armadura:2
+ 
+Celeborn
+Raza: ELFO.  Edad: 220.  Salud: 300.0
+Nivel: 1
+Velocidad: 6.  Destreza: 4
+Fuerza: 10.  Armadura:7
+ 
+---------------------------------------------------
+ 
+Presione enter para continuar...
+Ronda nro: 1
+---------------------------------------------------
+Fd vs Ruffo
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Fd ataca a Ruffo y le inflige 417.56 de daño. Le queda 0.0 de salud.
+ 
+Ruffo ha muerto.
+ 
+Fd recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 330.0
+Nivel: 2
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+Ronda nro: 2
+---------------------------------------------------
+Fd vs Celeborn
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Fd ataca a Celeborn y le inflige 419.32 de daño. Le queda 0.0 de salud.
+ 
+Celeborn ha muerto.
+ 
+Fd recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 360.0
+Nivel: 3
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+Ronda nro: 3
+---------------------------------------------------
+Ñoqui vs Ruffo
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Ñoqui ataca a Ruffo y le inflige 151.2 de daño. Le queda 148.8 de salud.
+ 
+Ruffo ataca a Ñoqui y le inflige 361.02 de daño. Le queda 0.0 de salud.
+ 
+Ñoqui ha muerto.
+ 
+Ruffo recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 178.8
+Nivel: 2
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+Ronda nro: 4
+---------------------------------------------------
+Jorge vs Ruffo
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Jorge ataca a Ruffo y le inflige 12.6 de daño. Le queda 166.2 de salud.
+ 
+Ruffo ataca a Jorge y le inflige 323.4 de daño. Le queda 0.0 de salud.
+ 
+Jorge ha muerto.
+ 
+Ruffo recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 196.2
+Nivel: 3
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+Ronda nro: 5
+---------------------------------------------------
+Fd vs Ruffo
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Fd ataca a Ruffo y le inflige 190.08 de daño. Le queda 6.119995 de salud.
+ 
+Ruffo ataca a Fd y le inflige 257.4 de daño. Le queda 102.600006 de salud.
+ 
+Fd ataca a Ruffo y le inflige 368.28 de daño. Le queda 0.0 de salud.
+ 
+Ruffo ha muerto.
+ 
+Fd recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 132.6
+Nivel: 4
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+¡El equipo 1 ha ganado!
+Guardando partida...
+Presione enter para continuar...
+ 

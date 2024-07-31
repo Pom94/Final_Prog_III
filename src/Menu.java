@@ -33,6 +33,9 @@ public class Menu {
                     PersonajesAleatorios generador = new PersonajesAleatorios();
                     jugador1.getEquipo().addAll(generador.generarEquipoAleatorio());
                     jugador2.getEquipo().addAll(generador.generarEquipoAleatorio());
+                    Logger logger = new Logger();
+                    //el Logger empieza a grabar la partida
+                    logger.comienzoLog();
                     System.out.println("---------------------------------------------------");
                     System.out.println("Equipo 1:");
                     System.out.println(" ");
@@ -71,14 +74,19 @@ public class Menu {
                     Combate combate = new Combate(jugador1.getEquipo(), jugador2.getEquipo());
                     combate.iniciarCombate();
 
-                    System.out.println("Guardando partida...");
+                    //guardar partida
+                    logger.finLog();
+
+                    System.out.println("Partida guardada.");
+
+
                     //Scanner seguir3 = new Scanner(System.in);
                     System.out.println("Presione enter para continuar...");
                     sc.nextLine();
                     System.out.println(" ");
 
 
-                    //guardar partida
+
 
 
 
@@ -94,6 +102,10 @@ public class Menu {
                     jugador1b.getEquipo().addAll(crear.crearEquipo());
                     System.out.println("\nEquipo 2: ");
                     jugador2b.getEquipo().addAll(crear.crearEquipo());
+
+                    Logger logger2 = new Logger();
+                    //el Logger empieza a grabar la partida
+                    logger2.comienzoLog();
                     System.out.println("---------------------------------------------------");
                     System.out.println("Equipo 1:");
                     System.out.println(" ");
@@ -131,18 +143,27 @@ public class Menu {
                     Combate combate2 = new Combate(jugador1b.getEquipo(), jugador2b.getEquipo());
                     combate2.iniciarCombate();
 
-                    System.out.println("Guardando partida...");
+                    //guardas partida
+                    logger2.finLog();
+
+                    System.out.println("Partida guardada.");
                     //Scanner seguir6 = new Scanner(System.in);
                     System.out.println("Presione enter para continuar...");
                     sc.nextLine();
                     System.out.println(" ");
 
-                    //guardas partida
+
 
                     break;
+
                 case 3:
+                    Logger logger3 = new Logger();
+                    logger3.listarPartidasYVer();
                     break;
+
                 case 4:
+                    Logger logger4 = new Logger();
+                    logger4.listarPartidasYBorrar();
                     break;
                 case 5:
                     System.exit(0);

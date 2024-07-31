@@ -1,0 +1,137 @@
+---------------------------------------------------
+Equipo 1:
+ 
+Celeborn
+Raza: ELFO.  Edad: 241.  Salud: 300.0
+Nivel: 1
+Velocidad: 4.  Destreza: 4
+Fuerza: 9.  Armadura:6
+ 
+Electrochongo
+Raza: HUMANO.  Edad: 146.  Salud: 300.0
+Nivel: 1
+Velocidad: 5.  Destreza: 1
+Fuerza: 8.  Armadura:10
+ 
+Electrochongo
+Raza: HUMANO.  Edad: 166.  Salud: 300.0
+Nivel: 1
+Velocidad: 3.  Destreza: 1
+Fuerza: 3.  Armadura:4
+ 
+ 
+Presione enter para continuar...
+---------------------------------------------------
+Equipo 2:
+ 
+Legolas
+Raza: HUMANO.  Edad: 6.  Salud: 300.0
+Nivel: 1
+Velocidad: 2.  Destreza: 5
+Fuerza: 4.  Armadura:9
+ 
+Elisa
+Raza: HUMANO.  Edad: 110.  Salud: 300.0
+Nivel: 1
+Velocidad: 4.  Destreza: 3
+Fuerza: 6.  Armadura:8
+ 
+Groissman
+Raza: ELFO.  Edad: 285.  Salud: 300.0
+Nivel: 1
+Velocidad: 5.  Destreza: 5
+Fuerza: 4.  Armadura:9
+ 
+---------------------------------------------------
+ 
+Presione enter para continuar...
+Ronda nro: 1
+---------------------------------------------------
+Celeborn vs Groissman
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Celeborn ataca a Groissman y le inflige 150.36 de daño. Le queda 149.64 de salud.
+ 
+Groissman ataca a Celeborn y le inflige 429.03 de daño. Le queda 0.0 de salud.
+ 
+Celeborn ha muerto.
+ 
+Groissman recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 179.64
+Nivel: 2
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+Ronda nro: 2
+---------------------------------------------------
+Electrochongo vs Groissman
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Electrochongo ataca a Groissman y le inflige 37.6 de daño. Le queda 142.04001 de salud.
+ 
+Groissman ataca a Electrochongo y le inflige 51.03 de daño. Le queda 248.97 de salud.
+ 
+Electrochongo ataca a Groissman y le inflige 765.6 de daño. Le queda 0.0 de salud.
+ 
+Groissman ha muerto.
+ 
+Electrochongo recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 278.97
+Nivel: 2
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+Ronda nro: 3
+---------------------------------------------------
+Electrochongo vs Legolas
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Electrochongo ataca a Legolas y le inflige 185.6 de daño. Le queda 114.399994 de salud.
+ 
+Legolas ataca a Electrochongo y le inflige 46.8 de daño. Le queda 232.17 de salud.
+ 
+Electrochongo ataca a Legolas y le inflige 373.6 de daño. Le queda 0.0 de salud.
+ 
+Legolas ha muerto.
+ 
+Electrochongo recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 262.16998
+Nivel: 3
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+Ronda nro: 4
+---------------------------------------------------
+Electrochongo vs Elisa
+Empieza Equipo 1.
+Presione cualquier tecla para continuar...
+ 
+ 
+Electrochongo ataca a Elisa y le inflige 66.0 de daño. Le queda 234.0 de salud.
+ 
+Elisa ataca a Electrochongo y le inflige 71.0 de daño. Le queda 191.16998 de salud.
+ 
+Electrochongo ataca a Elisa y le inflige 220.8 de daño. Le queda 13.199997 de salud.
+ 
+Elisa ataca a Electrochongo y le inflige 26.0 de daño. Le queda 165.16998 de salud.
+ 
+Electrochongo ataca a Elisa y le inflige 19.2 de daño. Le queda 0.0 de salud.
+ 
+Elisa ha muerto.
+ 
+Electrochongo recibe bonificación de  30 puntos de salud y sube un nivel.
+Salud: 195.16998
+Nivel: 4
+
+Presione cualquier tecla para continuar...
+---------------------------------------------------
+¡El equipo 1 ha ganado!
+Guardando partida...
+Presione enter para continuar...
+ 
